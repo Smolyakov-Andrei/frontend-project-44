@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/Smolyakov-Andrei/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Smolyakov-Andrei/frontend-project-44/actions)",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "main": "index.js",
   "scripts": {
@@ -21,6 +22,10 @@
   },
   "homepage": "https://github.com/Smolyakov-Andrei/frontend-project-44#readme",
   "dependencies": {
+    "eslint": "^9.30.1",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.1.0"
   }
 }
