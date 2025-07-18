@@ -2,4 +2,3 @@
 import playNodGame from '../src/nod.js';
 
 playNodGame();
-
