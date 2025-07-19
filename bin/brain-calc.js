@@ -2,4 +2,3 @@
 import playCalcGame from '../src/calc.js';
 
 playCalcGame();
-
