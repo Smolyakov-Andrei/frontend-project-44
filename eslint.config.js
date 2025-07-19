@@ -8,6 +8,7 @@ export default [
     rules: {
       'indent': ['error', 2],
       '@stylistic/indent': ['error', 2],
+      indent: ['error', 2, { SwitchCase: 1 }],
       // ...
     }
   }
