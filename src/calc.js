@@ -1,6 +1,7 @@
 import readlineSync from 'readline-sync';
 
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+
 const getRandomOperator = () => {
   const operators = ['+', '-', '*'];
   const randomIndex = getRandomNumber(0, operators.length - 1);
@@ -9,10 +10,14 @@ const getRandomOperator = () => {
 
 const calculate = (num1, num2, operator) => {
   switch (operator) {
-    case '+': return num1 + num2;
-    case '-': return num1 - num2;
-    case '*': return num1 * num2;
-    default: throw new Error(`Unknown operator: ${operator}`);
+  case '+':
+    return num1 + num2;
+  case '-':
+    return num1 - num2;
+  case '*':
+    return num1 * num2;
+  default:
+    throw new Error(`Unknown operator: ${operator}`);
   }
 };
 
@@ -44,4 +49,5 @@ const playCalcGame = () => {
 
   console.log(`Congratulations, ${userName}!`);
 };
-export default playCalcGame
+
+export default playCalcGame;
