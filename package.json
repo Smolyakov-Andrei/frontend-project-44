@@ -6,7 +6,7 @@
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
-    "brain-cal": "bin/brain-calc.js",
+    "brain-calс": "bin/brain-calc.js",
     "brain-nod": "bin/brain-node.js",
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime"

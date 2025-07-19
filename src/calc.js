@@ -28,8 +28,8 @@ const playCalcGame = () => {
   const roundsCount = 3;
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const number1 = getRandomNumber(1, 30);
-    const number2 = getRandomNumber(1, 30);
+    const number1 = getRandomNumber(1, 15);
+    const number2 = getRandomNumber(1, 15);
     const operator = getRandomOperator();
     const correctAnswer = calculate(number1, number2, operator);
 
