@@ -38,4 +38,3 @@ const playPrimeGame = () => {
 }
 
 export default playPrimeGame
-  
