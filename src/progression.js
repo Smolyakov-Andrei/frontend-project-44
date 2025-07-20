@@ -6,7 +6,7 @@ const playProgressionGame = () => {
   const userName = readlineSync.question('May I have your name? ')
   console.log(`Hello, ${userName}!`)
   console.log('What number is missing in the progression?')
-  
+
   const roundsCount = 3
   const progressionLength = 10
 
@@ -14,7 +14,7 @@ const playProgressionGame = () => {
     const start = Math.floor(Math.random() * 10) + 1
     const step = Math.floor(Math.random() * 5) + 1
     const progression = generateSequence(start, step, progressionLength)
-    
+
     const hiddenIndex = Math.floor(Math.random() * (progressionLength - 10)) + 5
     const correctAnswer = progression[hiddenIndex].toString()
 

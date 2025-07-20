@@ -46,7 +46,6 @@ const playCalcGame = () => {
       return
     }
   }
-  
   console.log(`Congratulations, ${userName}!`)
 }
 
